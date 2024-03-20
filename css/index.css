@@ -2,18 +2,29 @@ ul{
     list-style-type: none;
     margin:10px;
     padding:10px;
-    background-color: #800000;
+    text-align: right;
+    background-color: #005c80;
 }
 li{
     padding: 15px;
     display: inline;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 li a {
     color: #ffffff;
     text-decoration: none;
 }
 li a:hover{
-    background-color: #ff0000;
+    color: #0f0e0e;
+    transition: 0.5s;
+}
+.header{
+    float: inline-start;
+    margin: 2%;
+}
+.header li{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
